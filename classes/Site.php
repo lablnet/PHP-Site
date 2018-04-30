@@ -25,6 +25,12 @@ class Site
 			return $base_url;
 
 	}
+		/**
+		 * Return Current Page
+		 * 
+		 * @access public
+		 * @return string
+		 */		
 	public static function CurrentPage(){
 
 		    $base_url = Site::GetUri();
