@@ -1,13 +1,22 @@
 # PHP Site class
-## This package manipulate web site that every website needs
+## This class can get URLs related with the current request site.
 
 ## Feature
 
- 1. Return current site url
- 2. support method for redirect to another page
- 3. support method generate slug
- 4. Method for CurrentPage
+This class can get URLs related with the current request site.
 
+It checks the current HTTP request values and returns several types of URLs related with the current site. Currently it can return:
+
+- Site URL
+- Current page URL
+- Current site http or https protocol
+- Server name
+- TCP port
+- Current request Uri
+- An array with the URL path split in parts separated by the slash character : /
+- Etc.
+
+It can also redirect the current request to another URL, or the previous page using the referrer URL.
 
 
 
