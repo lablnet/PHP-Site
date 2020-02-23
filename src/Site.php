@@ -14,8 +14,8 @@
 
 namespace Lablnet;
 
-use Zest\http\Redirect;
-use Zest\http\Request;
+use Lablnet\Redirect;
+use Lablnet\Request;
 
 class Site
 {
