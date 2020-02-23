@@ -1,7 +1,8 @@
 <?php
 
+use Lablnet\Site;
 
-require_once 'init.php';
+require_once '../vendor/autoload.php';
 
 echo 'site url: ';
 //for site url
